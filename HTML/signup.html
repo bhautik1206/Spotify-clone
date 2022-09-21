@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up- Spotify</title>
+    <link href="/Css_folder/Spotify/CSS/signup.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/485d2c415c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="page">
+            <div class="pageagkasn">
+                <img id="page-logo-img" src="/Css_folder/Spotify/Photo/sign up/logo.png">
+            </div>
+            <h1 class="page-h1-gna">Sign up for free to start listening.</h1>
+            <button class="btm-facebook"><i class="fa-brands fa-facebook"><a href="#">Sign up with Facebook</a></i></button><br>
+            <button class="btm-google"><i class="fa-brands fa-google"><a href="#">Sign up with Google</a></i></button>
+            <svg class="line">
+                <line  x1="10" y1="0" x2="300" y2="0" style="stroke:rgb(51, 49, 49);stroke-width:2" />
+            </svg>
+        <form class="form">
+            <label for="email" class="bold-class" id="email-label">What's your email?</label>
+            <input class="page-input" type="email" placeholder="Enter your email." required oninvalid="this.setCustomValidity('You need to enter your email.')"
+            oninput="setCustomValidity('')">
+            <br>
+            <br>
+            <label for="confirm-email" class="bold-class" id="confirm-email">Confirm your email</label>
+            <input class="page-input" type="email" placeholder="Enter your email again." required oninvalid="this.setCustomValidity('You need to conform your email.')"
+            oninput="setCustomValidity('')">
+            <br>
+            <br>
+            <label for="email-password"  class="bold-class" id="email-password">Create a password</label>
+            <input class="page-input" type="email" placeholder="Create a password" required oninvalid="this.setCustomValidity('You need to enter a password.')"
+            oninput="setCustomValidity('')">
+            <br>
+            <br>
+            <label for="name" class="bold-class" id="name-person">What should we call you?</label>
+            <input class="page-input" type="text" placeholder="Enter  a profile name." required oninvalid="this.setCustomValidity('Enter a name for your profile')"
+            oninput="setCustomValidity('')">
+            <br>
+            <br>
+            <label for="date" class="bold-class" id="date">What's your date of birth?</label>
+            <input class="page-input" type="date" required>
+            <br>
+            <br>
+            <label for="gender" class="bold-class" id="gender">What's your Gender?</label>
+            <br><br>
+            <input class="gendersafjlan" type="radio" name="gender" required oninvalid="this.setCustomValidity('Select your gender')"
+            oninput="setCustomValidity('')">Male
+            <input class="gendersafjlan" type="radio" name="gender" required oninvalid="this.setCustomValidity('Select your gender')"
+            oninput="setCustomValidity('')">Female
+            <input class="gendersafjlan" type="radio" name="gender" required oninvalid="this.setCustomValidity('Select your gender')"
+            oninput="setCustomValidity('')">Other
+            <input type="checkbox" class="checkbox" id="checkbox1">           
+            <lable class="checkbox-label"  >I would prefer not to receive marketing messages from Spotify</lable><br>
+            <input type="checkbox" class="checkbox" id="checkbox2">
+            <label class="checkbox-label">Share my registration data with Spotify's content providers for marketing purposes.</label>           
+              </form>
+
+        </div>
+    </div>
+</body>
+</html>
